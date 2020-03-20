@@ -1,13 +1,36 @@
-fun sayHello(greeting:String, itemToGreet:String) = println("$greeting $itemToGreet")
+fun sayHello(greeting:String, itemsToGreet:List<String>) {
+    itemsToGreet.forEach { itemToGreet ->
+        println("$greeting $itemToGreet")
+    }
+}
 
 fun main() {
-    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Books")
-    println(interestingThings.size)
-    println(interestingThings[0])
-    println(interestingThings.get(2))
+    val interestingThingsArray = arrayOf("Kotlin", "Programming", "Comic Books")
+    val interestingThingsList = listOf("Kotlin", "Programming", "Comic Books")
+    val interestingThingsMap = mutableMapOf(1 to "a", 2 to "b", 3 to "c")
+    //mutable = can add values etc
+    //immutable = no modification
+    interestingThingsMap.put(4, "d")
 
-    //
-    for(interestingThing in interestingThings) {
-        println(interestingThing)
-    }
+    sayHello("Hi", interestingThingsList)
+
+//    println(interestingThings.size)
+//    println(interestingThings[0])
+//    println(interestingThings.get(2))
+
+    //iterates the whole array
+//    interestingThings.forEach {interestingThing ->
+////        println(interestingThing)
+////    }
+
+    //lists array with corresponding index
+//    interestingThings.forEachIndexed { index, interestingThing ->
+//        println("$interestingThing is at index $index")
+//    }
+
+//    interestingThingsList.forEach { interestingThing ->
+//        println(interestingThing)
+//    }
+
+    interestingThingsMap.forEach{key, value -> println("$key -> $value")}
 }
