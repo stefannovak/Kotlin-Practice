@@ -5,14 +5,23 @@ fun sayHello(greeting:String, itemsToGreet:List<String>) {
 }
 
 fun main() {
-    val interestingThingsArray = arrayOf("Kotlin", "Programming", "Comic Books")
-    val interestingThingsList = listOf("Kotlin", "Programming", "Comic Books")
-    val interestingThingsMap = mutableMapOf(1 to "a", 2 to "b", 3 to "c")
+
+    val person = Person()
+//    person.firstName
+//    person.lastName
+//    person.nickName = "Shades"
+//    person.nickName = "New Nickname"
+//    println(person.nickName)
+    person.printInfo()
+
+//    val interestingThingsArray = arrayOf("Kotlin", "Programming", "Comic Books")
+//    val interestingThingsList = listOf("Kotlin", "Programming", "Comic Books")
+//    val interestingThingsMap = mutableMapOf(1 to "a", 2 to "b", 3 to "c")
     //mutable = can add values etc
     //immutable = no modification
-    interestingThingsMap.put(4, "d")
-
-    sayHello("Hi", interestingThingsList)
+//    interestingThingsMap.put(4, "d")
+//
+//    sayHello("Hi", interestingThingsList)
 
 //    println(interestingThings.size)
 //    println(interestingThings[0])
@@ -32,5 +41,5 @@ fun main() {
 //        println(interestingThing)
 //    }
 
-    interestingThingsMap.forEach{key, value -> println("$key -> $value")}
+//    interestingThingsMap.forEach{key, value -> println("$key -> $value")}
 }
