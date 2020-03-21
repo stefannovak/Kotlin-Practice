@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c5ef2b3-60b0-4114-9a19-29048db7af13" name="Default Changelist" comment="" />
+    <list default="true" id="5c5ef2b3-60b0-4114-9a19-29048db7af13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BubbleSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -36,7 +40,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Kotlin.PersonInfoProviderKt">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Hello Kotlin" />
       <option name="VM_PARAMETERS" />
@@ -65,8 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.PersonInfoProviderKt" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.PersonInfoProviderKt" />
       </list>
     </recent_temporary>
   </component>
@@ -92,34 +96,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="474" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584731526459" />
+    <state x="318" y="0" key="CommitChangelistDialog2" timestamp="1584801257420">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="318" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584801257420" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584710397109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584710397109" />
-    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1584732372165">
+    <state width="661" height="237" key="GridCell.Tab.0.bottom" timestamp="1584802717576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584732372165" />
-    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1584732372165">
+    <state width="661" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584802717576" />
+    <state width="661" height="237" key="GridCell.Tab.0.center" timestamp="1584802717576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584732372165" />
-    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1584732372165">
+    <state width="661" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584802717576" />
+    <state width="661" height="237" key="GridCell.Tab.0.left" timestamp="1584802717572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584732372165" />
-    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1584732372165">
+    <state width="661" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584802717572" />
+    <state width="661" height="237" key="GridCell.Tab.0.right" timestamp="1584802717576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584732372165" />
+    <state width="661" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584802717576" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1584710403796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584710403796" />
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1584708627018">
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1584800634590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584708627018" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584800634590" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584720472340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
