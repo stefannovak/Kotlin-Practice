@@ -1,27 +1,30 @@
+import kotlin.random.Random
+
 class BubbleSort {
 
     fun sort() {
         var holder : Int
-
-        var randomNumberArray : IntArray = intArrayOf(3,6,7,3,4,5,1)
+        val arraySize : Int = 10
+        val randomNumberArray = IntArray(arraySize) { Random.nextInt(0, 100)}
         println("Random array: ")
         for (i in randomNumberArray) {
-            println(i)
+            print("$i ")
         }
 
-        for (i in randomNumberArray) {
-            for(j in 1..randomNumberArray.lastIndex) {
-                if (randomNumberArray[j - 1] > randomNumberArray[j]) {
-                    holder = j - 1
-                    randomNumberArray[j - 1] = randomNumberArray[j]
-                    randomNumberArray[j] = holder
+        for (i in 0 until randomNumberArray.size - 1) {
+            for(j in 0 until randomNumberArray.size - 1 - i) {
+                if (randomNumberArray[j] > randomNumberArray[j + 1]) {
+                    holder = randomNumberArray[j]
+                    randomNumberArray[j] = randomNumberArray[j+1]
+                    randomNumberArray[j + 1] = holder
+
                 }
             }
         }
 
-        println("Sorted array: ")
+        println("\nSorted array: ")
         for(i in randomNumberArray) {
-            println(i)
+            print("$i ")
         }
     }
 }
