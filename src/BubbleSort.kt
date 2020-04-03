@@ -4,7 +4,7 @@ class BubbleSort {
 
     fun sort() {
         var holder : Int
-        val arraySize : Int = 10
+        val arraySize = 10
         val randomNumberArray = IntArray(arraySize) { Random.nextInt(0, 100)}
         println("Random array: ")
         for (i in randomNumberArray) {
